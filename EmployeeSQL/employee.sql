@@ -14,7 +14,7 @@ JOIN
 SELECT 
     e.first_name,
     e.last_name,
-    e.hire_date,
+    e.hire_date
   
 FROM 
     employees e
@@ -69,7 +69,8 @@ WHERE
 SELECT
 	e.emp_no,
 	e.last_name,
-	e.first_name
+	e.first_name,
+	d.dept_name
 FROM 
 	employees e
 
