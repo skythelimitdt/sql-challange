@@ -9,14 +9,15 @@ This Challenge is divided into three parts: data modeling, data engineering, and
 # Data Modeling
 Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables.
 
+![model](https://github.com/skythelimitdt/sql-challange/blob/main/EmployeeSQL/QuickDBD-export.png)
+
+
 # Data Engineering
 Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
 
-Specify the data types, primary keys, foreign keys, and other constraints.
-
-Be sure to create the tables in the correct order to handle the foreign keys.
-
-Import each CSV file into its corresponding SQL table.
+- Specify the data types, primary keys, foreign keys, and other constraints.
+- Be sure to create the tables in the correct order to handle the foreign keys.
+- Import each CSV file into its corresponding SQL table.
 
 # Data Analysis
 - List the employee number, last name, first name, sex, and salary of each employee.
@@ -36,13 +37,5 @@ Import each CSV file into its corresponding SQL table.
 - List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
 # Resources
-ChatGPT for List the frequency counts, in descending order, of all the employee last names
-SELECT 
-    e.last_name,
-    COUNT(*) AS frequency
-FROM 
-    employees e
-GROUP BY 
-    e.last_name
-ORDER BY 
-    frequency DESC;
+- ASU Bootcamp activities
+- ChatGPT 
